@@ -1,0 +1,63 @@
+.firstblock{ 
+  background: url('../img/blackandwhiteroom.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width: 100%;
+  min-height: 600px;
+}
+
+.slogans{
+	margin-top:10%;
+}
+.thinword{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+	font-size: 50px !important; 
+	color: white;
+}
+
+.fatword{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	font-size: 50px !important; 
+	color: white;
+}
+
+.block2{
+	background-color: #F8F8FF;
+	min-width: 100% !important; 
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 40px;
+	padding-bottom: 50px;
+}
+
+.row {
+	margin-left:0px !important;
+	margin-right:0px !important;
+
+}
+
+.projects{
+	margin-top: 50px !important;
+	margin-bottom: 20px !important;
+}
+
+.projecttext{
+	margin-top: 10px;
+	font-size: 30px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	color: #C0C0C0;
+
+}
+
+.block3{
+	background-color: #008cba;
+}
+
+.profilepic{
+	max-width:200px;
+}
