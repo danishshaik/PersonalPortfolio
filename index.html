@@ -10,8 +10,44 @@
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,900' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:200,400,600,900' rel='stylesheet' type='text/css'>
     <script src="js/modernizr.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
   </head>
   <body>
+      <script type="text/javascript">
+  $(window).scroll(function() {
+    var y_scroll_pos = window.pageYOffset;
+    var scroll_pos_test = 300;             
+  // set to whatever you want it to be
+
+    if(y_scroll_pos > scroll_pos_test) {
+     $('.projects').addClass('animated fadeInDown');
+
+    }
+});
+    $(window).scroll(function() {
+    var y_scroll_pos = window.pageYOffset;
+    var scroll_pos_test = 100;             
+  // set to whatever you want it to be
+
+    if(y_scroll_pos > scroll_pos_test) {
+     $('.biowords').addClass('animated fadeInDown');
+
+    }
+});
+  $(window).scroll(function() {
+    var y_scroll_pos = window.pageYOffset;
+    var scroll_pos_test = 700;             
+  // set to whatever you want it to be
+
+    if(y_scroll_pos > scroll_pos_test) {
+     $('.quotesblock').addClass('animated fadeInDown');
+
+    }
+});
+
+  </script>
     <div class="row firstblock">
       <div class="row">
 
@@ -19,20 +55,20 @@
       <div class="slogans">
         <div class="row">
           <center><div class = "fadeInDown small-12 large-12 columns ">
-              <p class="thinword fadeInDown">Danish Shaik</p>
+              <p class="thinword animated fadeInDown">Danish Shaik</p>
           </div></center>
         </div>
         <div class="row">
          <center><div class = "small-12 large-12 columns ">
-              <p class="fatword fadeInDown">I BUILD BEAUTIFUL EASY TO USE</p>
+              <p class="fatword animated fadeInDown">I BUILD BEAUTIFUL EASY TO USE</p>
           </div></center>
       </div>
         <div class="row">
           <center><div class = "small-12 large-12 columns ">
-              <p class="fatword fadeInDown">WEB APPLICATIONS</p>
+              <p class="fatword animated fadeInUp">WEB APPLICATIONS</p>
           </div></center>
         </div>
-        <center><a href="resume.pdf" style = "background-color:#2ecc71" class="button">Hire Me!</a></center>
+        <center><a href="resume.pdf" style = "background-color:#2ecc71" class="animated fadeInUp button">Hire Me!</a></center>
       </div>             
     </div>
     <center><div class="row bio">
