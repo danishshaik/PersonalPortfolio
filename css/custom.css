@@ -120,3 +120,7 @@
 	font-size: 17px;
 	margin-top: 10%
 }
+
+.pimg:hover{
+	opacity:0.6;
+}

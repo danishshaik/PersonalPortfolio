@@ -88,12 +88,57 @@
     </div>
   </div>
   </center>
+  <center>
+    <div class="row">
+      <div class="resonateinfo" style="margin-top:10%;">
+      <div class="large-6 columns">
+        <img style="height: 100%; width: 100%"src="img/resonatebrowser.png"></img>
+      </div>
+      <div class="large-6 columns">
+          <div class="row">
+            <p class="description" style="text-align: left;">Planning vacations is a challenge. Hours of research, price bargining, and ticket booking. Vacay simplies to a simple search, and it'll handle everthing from there. What to eat in the morning? Done. Places to visit in New York? Tickets booked. That's next level vacation planning.</p>
+          </div>
+          <a style="margin-right: 66.811832%;" href="" style = "background-color:#3498db" class="button">Take a Look!</a>
+      </div>
+    </div>
+  </div>
+  </center>
+  <center>
+    <div class="row">
+      <div class="hackersunder20info" style="margin-top:10%;">
+      <div class="large-6 columns">
+          <div class="row">
+            <p class="description" style="text-align: left;">Planning vacations is a challenge. Hours of research, price bargining, and ticket booking. Vacay simplies to a simple search, and it'll handle everthing from there. What to eat in the morning? Done. Places to visit in New York? Tickets booked. That's next level vacation planning.</p>
+          </div>
+          <a style="margin-right: 66.811832%;" href="http://hackersunder20.com" style = "background-color:#3498db" class="animated fadeInUp button">Take a Look!</a>
+      </div>
+      <div class="large-6 columns">
+        <img style="height: 100%; width: 100%"src="img/hackersunder20browser.png"></img>
+      </div>
+    </div>
+  </div>
+  </center>
+  <center>
+    <div class="row">
+      <div class="waffleinfo" style="margin-top:1%;">
+      <div class="large-6 columns">
+        <img style="height: 50%; width: 50%"src="img/waffleiniphone.png"></img>
+      </div>
+      <div class="large-6 columns" style="margin-top:5%;">
+          <div class="row">
+            <p class="description" style="text-align: left;">Planning vacations is a challenge. Hours of research, price bargining, and ticket booking. Vacay simplies to a simple search, and it'll handle everthing from there. What to eat in the morning? Done. Places to visit in New York? Tickets booked. That's next level vacation planning.</p>
+          </div>
+          <a style="margin-right: 66.811832%;" href="http://attosoft.com/waffle" style = "background-color:#3498db" class="animated fadeInUp button">Take a Look!</a>
+      </div>
+    </div>
+  </div>
+  </center>
     <div class="row block2">
       <center><ul class="small-block-grid-4" style="width:90%;">
-        <li class="imaze projects none"><img class="pimg" src="img/imaze.jpg"></li>
-        <li class="projects none"><a href=""><img class="pimg" src="img/resonate.jpg"></a></li>
-        <li class="projects none"><a href="http://hackersunder20.com"><img class="pimg" src="img/hackersunder20.jpg"></a></li>
-        <li class="projects none"><a href="http://attosoft.com/waffle"><img class="pimg" src="img/waffle.jpg"></a></li>
+        <li class="imaze projects animated fadeInDown"><a onclick="imaze(); return false;"><img class="pimg" src="img/imaze.jpg"></a></li>
+        <li class="imaze projects animated fadeInDown"><a onclick="resonate(); return false;"><img class="pimg" src="img/resonate.jpg"></a></li>
+        <li class="imaze projects animated fadeInDown"><a onclick="hackersunder20(); return false;"><img class="pimg" src="img/hackersunder20.jpg"></a></li>
+        <li class="imaze projects animated fadeInDown"><a onclick="waffle(); return false;"><img class="pimg" src="img/waffle.jpg"></a></li>
       </ul></center>
     </div>
     <center>
@@ -115,10 +160,39 @@
         </ul>
     </div>
   </body>
-  <script type="text/javascript">
-    $( ".imazebrowser").hide();
-    $(".imaze").click(function() {
-      $( ".imazebrowser").show().addClass(".animated .slideInRight");
-  });
+
+  <script type="text/javascript">      
+
+      $( ".resonateinfo").hide();
+      $( ".hackersunder20info").hide();
+      $( ".waffleinfo").hide();     
+    function imaze() {
+      $( ".resonateinfo").hide();
+      $( ".hackersunder20info").hide();
+      $( ".waffleinfo").hide();     
+      $( ".imazeinfo").show();
+      $( ".imazeinfo").addClass("animated slideInRight");
+  };
+      function resonate() {
+      $( ".imazeinfo").hide();
+      $( ".hackersunder20info").hide();
+      $( ".waffleinfo").hide();      
+      $( ".resonateinfo").show();
+      $( ".resonateinfo").addClass("animated slideInLeft");
+  };
+      function hackersunder20() {
+      $( ".imazeinfo").hide();
+      $( ".resonateinfo").hide();
+      $( ".waffleinfo").hide();      
+      $( ".hackersunder20info").show();
+      $( ".hackersunder20info").addClass("animated slideInRight");
+  };
+      function waffle() {
+      $( ".imazeinfo").hide();
+      $( ".hackersunder20info").hide();
+      $( ".resonateinfo").hide();      
+      $( ".waffleinfo").show();
+      $( ".waffleinfo").addClass("animated slideInLeft");
+  };
   </script>
 </html>
