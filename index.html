@@ -50,7 +50,10 @@
 
     }
 });
-
+    $(".imaze").click(function() {
+      $( ".imazebrowser").hide();
+      $( ".imazebrowser").addClass(".animated .slideInRight");
+  });
   </script>
     <div class="row firstblock">
       <div class="row">
@@ -75,21 +78,38 @@
         <center><a href="resume.pdf" style = "background-color:#2ecc71" class="animated fadeInUp button">Hire Me!</a></center>
       </div>             
     </div>
-    <center><div class="row bio">
-      <div class="container bioblock"><p class="biowords none">Hi, I'm Danish Shaik a 16 year old Web Developer from Cupertino, California. I also work in UI and UX design. The majority of my time is spet making statics web applications and pages that look awesome, and function well. If I'm not building something, I am either preoccupied with schoolwork, or I have a pillow against my face. Yet, no matter what I am doing, I'd much rather be working with talented people on a cool project. Feel free to <a href="mailto:shaik.danish97@gmail.com">reach</a> out to me with questions or projects. </p></div>
-    </div></center>
+  <center>
+    <div class="row">
+      <div class="imazeinfo" style="margin-top:10%;">
+      <div class="large-6 columns">
+          <div class="row">
+            <p class="description" style="text-align: left;">Planning vacations is a challenge. Hours of research, price bargining, and ticket booking. Vacay simplies to a simple search, and it'll handle everthing from there. What to eat in the morning? Done. Places to visit in New York? Tickets booked. That's next level vacation planning.</p>
+          </div>
+          <a style="margin-right: 66.811832%;" href="http://attosoft.com/imaze" style = "background-color:#3498db" class="animated fadeInUp button">Take a Look!</a>
+      </div>
+      <div class="large-6 columns">
+        <img style="height: 100%; width: 100%"src="img/imazebrowser.png"></img>
+      </div>
+    </div>
+  </div>
+  </center>
     <div class="row block2">
       <center><ul class="small-block-grid-4" style="width:90%;">
-        <li class="projects none"><a href="http://attosoft.com/imaze"><img class="pimg" src="img/imaze.jpg"></a></li>
+        <li class="imaze projects none"><img class="pimg" src="img/imaze.jpg"></li>
         <li class="projects none"><a href=""><img class="pimg" src="img/resonate.jpg"></a></li>
         <li class="projects none"><a href="http://hackersunder20.com"><img class="pimg" src="img/hackersunder20.jpg"></a></li>
         <li class="projects none"><a href="http://attosoft.com/waffle"><img class="pimg" src="img/waffle.jpg"></a></li>
       </ul></center>
     </div>
-    <center><div class="quotesblock row">
+    <center>
+      <div class="row bio">
+        <div class="container bioblock"><p class="biowords none">Hi, I'm Danish Shaik a 16 year old Web Developer from Cupertino, California. I also work in UI and UX design. The majority of my time is spet making statics web applications and pages that look awesome, and function well. If I'm not building something, I am either preoccupied with schoolwork, or I have a pillow against my face. Yet, no matter what I am doing, I'd much rather be working with talented people on a cool project. Feel free to <a href="mailto:shaik.danish97@gmail.com">reach</a> out to me with questions or projects.</p></div>
+    </div>
+  </center>
+   <!-- <center><div class="quotesblock row">
       <p class="quote none">"What would you do if you weren't afraid"</p>
       <div class="none creds" style="font-family: 'Roboto', sans-serif; font-weight: 900;">-<img style="height:75px;" src="facebookicon.png"></img></div>
-    </div></center>
+    </div></center>-->
 <iframe src="skills.html" frameBorder="0" style=" margin: 0px; border: 0; width: 100%; height: 450px">Your browser doesn't support iFrames.</iframe>
         <ul class="small-block-grid-5 social">
           <li style="width:inherit;"><a href="https://github.com/danishshaik"><img style="max-height: 30px" src="img/githubicon.png"></a></li>
@@ -100,4 +120,10 @@
         </ul>
     </div>
   </body>
+  <script type="text/javascript">
+    $(".imaze").click(function() {
+      $( ".imazebrowser").hide();
+      $( ".imazebrowser").addClass(".animated .slideInRight");
+  });
+  </script>
 </html>
