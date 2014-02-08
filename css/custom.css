@@ -124,3 +124,18 @@
 .pimg:hover{
 	opacity:0.6;
 }
+
+.roboto{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+}
+
+.contact{
+	background-color: #bdc3c7;
+	min-width: 100% !important; 
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	font-size: 40px;
+	padding-bottom: 50px;
+	color: white;
+}
